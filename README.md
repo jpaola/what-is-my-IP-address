@@ -23,9 +23,8 @@ Using `https://ifconfig.co` the response data format looks as follows:
   "time_zone": "",
   "asn": "",
   "asn_org": "",
-  "hostname": "",
   "user_agent": {
-    "product": ",
+    "comment": ",
     "raw_value": ""
   }
 }
