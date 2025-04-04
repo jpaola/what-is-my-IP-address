@@ -4,23 +4,70 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 		<title>What's my IP Address?</title>
 
-
 		<script src="index.js" defer></script>
+
 	</head>
 
 	<body>
-		<div id="ip-data">
-			<table>
-				<tr>
-					<th id="id-header">id:</th>
-					<td id="id-data"></td>
+
+		<h2>IP Information Table</h2>
+		<table id="ipDataTable" border="1">
+			<tbody>
+				<tr id="row-ip">
+					<th>ip: </th>
 				</tr>
-				<tr></tr>
-			</table>
-		</div>
+				<tr id="row-ip-decimal">
+					<th>ip_decimal: </th>
+				</tr>
+				<tr id="row-country">
+					<th>country: </th>
+				</tr>
+				<tr id="row-country-iso">
+					<th>country_iso: </th>
+				</tr>
+				<tr id="row-country-eu">
+					<th>country_eu: </th>
+				</tr>
+				<tr id="row-region-name">
+					<th>region_name: </th>
+				</tr>
+				<tr id="row-region-code">
+					<th>region_code: </th>
+				</tr>
+				<tr id="row-metro-code">
+					<th>metro_code: </th>
+				</tr>
+				<tr id="row-zip-code">
+					<th>zip_code: </th>
+				</tr>
+				<tr id="row-city">
+					<th>city: </th>
+				</tr>
+				<tr id="row-latitude">
+					<th>latitude: </th>
+				</tr>
+				<tr id="row-longitude">
+					<th>longitude: </th>
+				</tr>
+				<tr id="row-time-zone">
+					<th>time_zone: </th>
+				</tr>
+				<tr id="row-asn">
+					<th>asn: </th>
+				</tr>
+				<tr id="row-asn-org">
+					<th>asn_org: </th>
+				</tr>
+				<tr id="row-user-agent-comment">
+					<th>user_agent_comment: </th>
+				</tr>
+				<tr id="row-user-agent-raw-value">
+					<th>user_agent_raw_value: </th>
+				</tr>
+			</tbody>
+		</table>
 	</body>
 
 </html>
