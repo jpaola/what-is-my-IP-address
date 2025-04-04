@@ -8,7 +8,6 @@ fetch('https://api.allorigins.win/raw?url=https://ifconfig.co/json')
 	})
 	.then(data => {
 		// Handle response
-		// console.log(data.user_agent.comment)
 		document.getElementById('row-ip').innerHTML += `<td>${data.ip}</td>`;
 		document.getElementById('row-ip-decimal').innerHTML += `<td>${data.ip_decimal}</td>`;
 		document.getElementById('row-country').innerHTML += `<td>${data.country}</td>`;
