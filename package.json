@@ -1,0 +1,23 @@
+{
+	"name": "what-is-my-ip-address",
+	"version": "1.0.0",
+	"description": "A program written in JS and HTML to display your IP address in a formatted table.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jpaola/what-is-my-IP-address.git"
+	},
+	"type": "module",
+	"author": "JPaola",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/jpaola/what-is-my-IP-address/issues"
+	},
+	"homepage": "https://github.com/jpaola/what-is-my-IP-address#readme",
+	"dependencies": {
+		"node-fetch": "^3.3.2"
+	}
+}
